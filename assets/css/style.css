@@ -1,0 +1,267 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+body {
+  background-image: url('../img/sfondo.png');
+  font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#header {
+  margin: auto;
+  width: 85%;
+
+  padding: 15px;
+  background: linear-gradient(
+    6deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(48, 48, 194, 1) 0%,
+    rgba(43, 66, 201, 1) 13%,
+    rgba(0, 212, 255, 1) 54%
+  );
+  height: 19vh;
+  margin-bottom: 15px;
+}
+header div img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 15em;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.2em;
+}
+
+header li {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.2em;
+}
+
+header li::before {
+  content: '=>';
+}
+
+header li::after {
+  content: '<=';
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  width: 85%;
+
+  padding: 15px;
+}
+main h1 {
+  color: black;
+
+  font-size: 2em;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+  line-height: 1.2em;
+}
+
+article p:first-of-type {
+  color: grey;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+article p {
+  line-height: 1.3em;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+article ul {
+  color: black;
+  list-style-type: disc;
+  padding-left: 50px;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+code {
+  background-color: rgb(206, 205, 205);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+article ol {
+  color: black;
+  list-style-type: decimal;
+  padding-left: 40px;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#main-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-table td,
+#main-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#main-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#main-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4977c6;
+  color: white;
+}
+
+thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+tbody {
+  text-align: center;
+}
+
+#video-container {
+  text-align: center;
+}
+#video-container iframe {
+  border-radius: 25px;
+  text-align: center;
+}
+
+#news-container {
+  background-color: rgb(181, 181, 181);
+  margin: auto;
+  width: 85%;
+
+  padding: 15px;
+  margin-top: 25px;
+  height: 15vh;
+}
+
+#news-container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+#news-container p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+#news-container input {
+  width: 65%;
+  border: 0;
+  line-height: 2em;
+}
+
+#news-container button {
+  color: red;
+  height: 2.4em;
+  background-color: rgb(85, 138, 213);
+  color: white;
+  font-size: 0.8em;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: black;
+  font-size: 2em;
+  margin-top: 25px;
+}
+#correlati-container div {
+  background-color: rgb(181, 181, 181);
+  margin: auto;
+  width: 85%;
+
+  padding: 15px;
+  margin-top: 25px;
+  height: 8vh;
+}
+
+#correlati-container div p:last-child {
+  color: black;
+  text-align: right;
+  margin-top: 40px;
+}
+
+#correlati-container a {
+  color: rgb(57, 170, 214);
+  font-size: 1.2em;
+}
+
+footer {
+  margin: auto;
+  width: 85%;
+
+  padding: 15px;
+  background: linear-gradient(
+    6deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(48, 48, 194, 1) 0%,
+    rgba(43, 66, 201, 1) 13%,
+    rgba(0, 212, 255, 1) 54%
+  );
+  height: 10vh;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+footer p {
+  text-align: center;
+
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.1em;
+}
+
+footer a {
+  color: rgb(179, 60, 179);
+}
